@@ -37,7 +37,7 @@
 
 ### 🧪 Wireshark Packet Capture
 
-- **File**: `scan_capture.pcapng`
+- **File**: `capture.pcapng`
 - **Purpose**: Shows Nmap sending TCP SYN packets (stealth scan)
 - **Filter used**: tcp.flags.syn == 1 && tcp.flags.ack == 0
 
