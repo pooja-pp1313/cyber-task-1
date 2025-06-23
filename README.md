@@ -1,6 +1,6 @@
-# Cyber Security Internship – Task 
+# Cyber Security Internship – Task 1
 
-### 🔍 Task: Port Scanning Your Local Network
+###  Task: Port Scanning Your Local Network
 
 **Tools Used:**
 - Nmap (TCP SYN Scan)
@@ -12,7 +12,7 @@
 
 ---
 
-### 📊 Nmap Findings:
+###  Nmap Findings:
 
 | IP Address    | Open Ports             | Services                    |
 |---------------|------------------------|-----------------------------|
@@ -35,7 +35,7 @@
 
 ---
 
-### 🧪 Wireshark Packet Capture
+###  Wireshark Packet Capture
 
 - **File**: `capture.pcapng`
 - **Purpose**: Shows Nmap sending TCP SYN packets (stealth scan)
@@ -47,7 +47,7 @@
 
 ---
 
-### ✅ Learning Outcome:
+###  Learning Outcome:
 - Learned to use Nmap to detect open ports in local network
 - Understood the role of TCP SYN scan in stealthy enumeration
 - Used Wireshark to observe packet behavior during scan
