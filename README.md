@@ -22,7 +22,7 @@
 
 ---
 
-### 🔐 Risk Analysis:
+###  Risk Analysis:
 
 - **192.168.1.1**
   - Ports 21/22/23 are filtered — might be vulnerable if open
