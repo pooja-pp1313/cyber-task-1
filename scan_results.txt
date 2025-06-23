@@ -1,0 +1,22 @@
+# Nmap 7.97 scan initiated Mon Jun 23 14:08:13 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.028s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 4C:AE:1C:2A:EC:49 (SaiNXT Technologies LLP)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.00015s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Jun 23 14:09:06 2025 -- 256 IP addresses (2 hosts up) scanned in 52.86 seconds
